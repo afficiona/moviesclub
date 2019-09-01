@@ -1,12 +1,33 @@
+/**
+ * app.js
+ *
+ * This is the entry file for the application, only setup and boilerplate
+ * code.
+ */
+
+// Import all the third party stuff
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { Provider } from 'react-redux';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// Import root app
+import App from './containers/App';
+import './App.scss';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+import configureStore from './configureStore';
+
+// Create redux store
+const initialState = {};
+const store = configureStore(initialState);
+const MOUNT_NODE = document.getElementById('root');
+
+const render = () => {
+  ReactDOM.render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+    MOUNT_NODE,
+  );
+};
+
+render();
