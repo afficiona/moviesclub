@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/moviesclub/static/css/main.42968cae.chunk.css",
-    "main.js": "/moviesclub/static/js/main.489d1d66.chunk.js",
-    "main.js.map": "/moviesclub/static/js/main.489d1d66.chunk.js.map",
+    "main.js": "/moviesclub/static/js/main.beca7924.chunk.js",
+    "main.js.map": "/moviesclub/static/js/main.beca7924.chunk.js.map",
     "runtime~main.js": "/moviesclub/static/js/runtime~main.398ec06f.js",
     "runtime~main.js.map": "/moviesclub/static/js/runtime~main.398ec06f.js.map",
     "static/js/2.fe7ffc8f.chunk.js": "/moviesclub/static/js/2.fe7ffc8f.chunk.js",
     "static/js/2.fe7ffc8f.chunk.js.map": "/moviesclub/static/js/2.fe7ffc8f.chunk.js.map",
     "index.html": "/moviesclub/index.html",
-    "precache-manifest.72b18e0de623ccaaa85f7ed28231b5fd.js": "/moviesclub/precache-manifest.72b18e0de623ccaaa85f7ed28231b5fd.js",
+    "precache-manifest.fb31ee4d0fea19109dddfb745c6c0463.js": "/moviesclub/precache-manifest.fb31ee4d0fea19109dddfb745c6c0463.js",
     "service-worker.js": "/moviesclub/service-worker.js",
     "static/css/main.42968cae.chunk.css.map": "/moviesclub/static/css/main.42968cae.chunk.css.map"
   }
