@@ -62,7 +62,6 @@ Header.propTypes = {
 };
 
 function mapStateToProps({ Movies }) {
-  console.log(Movies.getIn(['filters', 'selected', 'genre']));
   return {
     IsLanguagesLoading: Movies.getIn(['filters', 'languages', 'isFetching']),
     LanguagesError: Movies.getIn(['filters', 'languages', 'error']),
