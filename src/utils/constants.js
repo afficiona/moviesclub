@@ -6,7 +6,9 @@ const API_CONSTANTS = {
 };
 const ENV_CONSTANTS = {
   development: {},
-  production: {},
+  production: {
+    API_BASE_URL: 'https://afficiona-movies.herokuapp.com',
+  },
 };
 
 export default Object.assign(APP_CONSTANTS, API_CONSTANTS, ENV_CONSTANTS[process.env.REACT_APP_ENV]);
